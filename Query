@@ -1,0 +1,51 @@
+query_list = ['race bias', 'racial bias','race prejudice', 'racial prejudice','race discrimination',
+              'racial discrimination', 'race disparity', 'racial disparity', 'race inequality', 'racial inequality',
+              'race difference', 'racial difference', 'racism']
+
+
+Results all articles found.
+query_results = {
+    'race bias': 8676,
+    'racial bias': 1261,
+    'race prejudice': 85,
+    'racial prejudice': 39,
+    'race discrimination': 847,
+    'racial discrimination': 518,
+    'race disparity': 1083,
+    'racial disparity': 705,
+    'race inequality': 2141,
+    'racial inequality': 730,
+    'race difference': 5897,
+    'racial difference': 985,
+    'racism': 981
+}
+
+
+over_1000 = {
+    'race bias': 8676,
+    'racial bias': 1261,
+    'race disparity': 1083,
+    'race inequality': 2141,
+    'race difference': 5897
+}
+
+under_1000 = {
+    'race prejudice': 85,
+    'racial prejudice': 39,
+    'race discrimination': 847,
+    'racial discrimination': 518,
+    'racial disparity': 705,
+    'racial inequality': 730,
+    'racial difference': 985,
+    'racism': 981
+}
+
+columns:
+Index, article title, url,
+author, content, date , think tank,
+matched keywords.
+
+
+---
+
+https://docs.google.com/document/d/1kJ874mTBQZleKcw_Y9W0V2E6fh-amUe8nPX6RUKRbY0/edit?tab=t.0#heading=h.faeouh9sg4mx

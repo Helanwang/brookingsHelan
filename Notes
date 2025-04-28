@@ -1,0 +1,72 @@
+4/18/2025
+
+works on a single article scraping on dynamic website url brooking2
+
+next step:
+
+scrape all the keyswords in brookings sites, try with one keyword first.
+
+scrap all the keywords article url and save it to a huge cvs first.
+
+----
+
+it gets the term racial bais, endless scroll for 500 articles, not sure if its the right number or not
+but it worked to get all the URl.
+
+If you clicked the wrong link during scraping, the program will stop. so do not disturb during the process
+
+it has a limit of 1000, of Algolia’s, maybe for each start with years. from 2016 to present.
+
+use a range to limit the scrape.
+
+----
+scrape the clean version for key word racial prejudice,
+
+next step: scrape all of it, clean version that is under 1000 limit first. and then you are done so far
+
+figure out why some dates are missing, some content are missing and exclude quotes like this:
+
+[i] As quoted by Frances Stead Sellers in the Washington Post. And by Le Monde.
+[ii] Read Chirac’s November 14 speech
+[iii] See: http://www.ined.fr/publications/collections/dossiersetrecherches/130.pdf
+[iv] See: http://www.danielpipes.org/article/3113
+[v] See: http://www.uoif-online.com/modules.php?op=modload&name=News&file=article&sid=414&mode=thread&order=0&thold=0
+[vi] Sylvain Brouard and Vincent Tiberaj. Rapport au politique des Français issus de l’immigration. CEVIPOF, SCIENCES PO, Juin 2005.
+[vii] See: http://www.vaisse.net/BiblioJustin/Tribunes/BiblioJustin-Marx_not_Bin_Laden9Nov05.pdf
+
+
+
+[i] See Susan P. Choy and Xiaojie Li (2006), “Dealing With Debt: 1992–93 Bachelor’s Degree Recipients 10 Years Later,” Postsecondary Education Descriptive Analysis Report NCES 2006-156, Washington, DC: U.S. Department of Education; Erin Dillon (2007), “Hidden Details: A Closer Look at Student Loan Default Rates,” Washington, DC: Education Sector. Both studies utilized data from the Baccalaureate and Beyond 1992-93 graduate cohort, followed up after 10 years.
+[ii] See Sara Goldrick-Rab, Robert Kelchen, and Jason Houle (2014), “The Color of Student Debt: Implications of Federal Loan Program Reforms for Black Students and Historically Black Colleges and Universities,” Wisconsin Hope Lab Discussion Paper, Madison, WI; Mark Huelsman (2015), “The Debt Divide: The Racial and Class Bias Behind the “New Normal” of Student Borrowing,” Washington, DC: Demos.
+[iii] Marshall Steinbaum & Kavya Vaghul (2016), “How the student debt crisis affects African Americans and Latinos,” Washington, DC: Washington Center for Equitable Growth. The study used data on student loan delinquencies by zip code, from the credit reporting agency Experian, and matched this to information on racial demographics by zip code from the Census Bureau’s American Community Survey.
+[iv] Fenaba R. Addo, Jason N. Houle, and Daniel Simon (2016), “Young, Black, and (Still) in the Red: Parental Wealth, Race, and Student Loan Debt,” Race and Social Problems, 8(1), 64–76; Michal Grinstein-Weiss, Dana C. Perantie, Samuel H. Taylor, Shenyang Guo, and Ramesh Raghavan (2016), “Racial disparities in education debt burden among low- and moderate-income households,” Children and Youth Services Review 65: 166–174.
+[v] See Adam Looney and Constantine Yannelis (2015), “A Crisis in Student Loans?: How Changes in the Characteristics of Borrowers and in the Institutions They Attended Contributed to Rising Loan Defaults,” Brookings Papers on Economic Activity 2: 1-89; also see review of related evidence by Susan M. Dynarski (2016), “The trouble with student loans? Low earnings, not high debt,” Evidence Speaks Report, Washington, DC: Brookings Institution, https://www.brookings.edu/research/the-trouble-with-student-loans-low-earnings-not-high-debt/.
+[vi] Danielle Douglas-Gabriel (2016),” Public-interest groups are calling on Education Dept. to track racial disparities in student lending,” Washington Post, https://www.washingtonpost.com/news/grade-point/wp/2016/09/15/public-interest-groups-calling-on-education-department-to-track-racial-disparities-in-student-lending/; http://www.studentloanborrowerassistance.org/wp-content/uploads/2013/05/ltr-sec-king-race-student-debt.pdf.
+[vii] Meta Brown, Andrew Haughwout, Donghoon Lee, and Wilbert van der Klaauw (2013), “Do We Know What We Owe? A Comparison of Borrower- and Lender-Reported Consumer Debt,” Staff Report No. 523, New York: Federal Reserve Bank of New York.
+[viii] Elizabeth J. Akers and Matthew M. Chingos (2014), “Are College Students Borrowing Blindly?” Washington, DC: Brown Center on Education Policy at Brookings.
+[ix] Because loan amounts naturally grow over time with interest, estimates here are expressed in current dollars to avoid confusion. Hence, differences in undergraduate debt are current-dollar amounts as reported in 2007-08; differences in cumulative borrowing and amounts owed are as reported in 2012.
+[x] Authors’ calculations using restricted Baccalaureate and Beyond 2007-08 survey data, 2012 follow up, measured in 2012 dollars. These average amounts include zeros for the 12 percent of black graduates and 29 percent of white graduates who never borrowed. The variable used, B2TOTDUE3, is not currently available via the publicly-accessible Quick Stats tool. The closest variable available in Quick Stats is B2BORAT (total amount borrowed), which understates the total gap due to differences in repayment rates.
+[xi] See history of changes to student loan regulations by FinAid.org, http://www.finaid.org/questions/bankruptcyexception.phtml.
+[xii] We decompose the gap with simple algebra, comparing differences in each component of total debt: undergraduate borrowing, graduate borrowing, and net repayments (the difference between total borrowed and total owed after four years).
+[xiii] Valerie Wilson (2016), “African Americans are paid less than whites at every education level,” Washington, DC: Economic Policy Institute.
+[xiv] We exclude enrollment in additional baccalaureate or sub-baccalaureate programs (the specific variable we utilize is B2HIENR, including categories 4 through 9).
+[xv] We confirm that this broad trend is also noticeable in the ACS data, which covers a much broader set of cohorts and can be tracked annually. In the year 2000, only about 25 percent of all black BA graduates had any graduate enrollment compared to about 30 percent of white graduates. But by 2014 the rates had equalized, around 33 percent. The different percentages between the ACS and B&B are because the ACS includes BA graduates of all ages, not just those from a specific graduation cohort. Many of these individuals graduated from college long ago; thus, changes in enrollment that occur among recent cohorts will be muted when combined with older cohorts.
+[xvi] Authors’ calculations using NCES Quick Stats with NPSAS:12 graduate student data, restricted to US citizens. For comparison, NPSAS:12 undergraduate data (again restricting to U.S. citizens) shows that 21 percent of black undergraduates and 11 percent of white undergraduates are in for-profit institutions.
+[xvii] See Mark Kantrowitz, “History of Financial Aid,” http://www.finaid.org/educators/history.phtml.
+[xviii] Jason Delisle (2015), “Don’t Just Blame For-Profit Colleges for Exploding Grad School Debt,” Forbes, http://www.forbes.com/sites/jasondelisle/2015/08/03/grad-school-debt/#56d1c5536fe0; Cumulative graduate loan debt for currently enrolled graduate students is $23,000 for enrollees at public institutions, $33,000 for those at for-profit institutions, and $36,000 for those at private not-for-profits. Authors’ calculations using NCES Quick Stats with NPSAS:2012 graduate student sample (restricted to U.S. citizens).
+[xix] A comparison of NPSAS:2012 and NPSAS:2004 graduate enrollment estimates (produced via NCES Quick Stats) shows that graduate enrollments nearly quadrupled in the for-profit sector (from 105,000 to 388,000) while increasing by only 18 percent in the public and private non-profit sectors combined (from 2.3 million to 2.7 million).
+[xx] Sudeep Reddy (2010), “Recession Exacerbates Race Gap,” Wall Street Journal, http://www.wsj.com/articles/SB10001424052748704292004575230543067586002.
+[xxi] David W. Johnston and Grace Lordan (2014), “When Work Disappears: Racial Prejudice and Recession Labour Market Penalties,” CEP Discussion Paper No. 1257, London: Centre for Economic Performance.
+[xxii] Authors’ calculations using NCES Quick Stats, B&B:08/12 data restricted to U.S. citizens.
+[xxiii] Sandy Baum (2014), “Higher Education Earnings Premium: Value, Variation, and Trends,” Washington, DC: Urban Institute.
+[xxiv] We pool data from the 2000-2014 ACS surveys, restrict the sample to 25-45-year-old high school graduates, and then regress ln(earnings) on degree attainment indicators as well as their interactions with race, gender, race, potential experience and experience squared. We find that the earnings premium for a graduate degree for whites, above and beyond a BA/BS, is 25 percent, while for blacks the premium is 33 percent. However, blacks also face a general wage penalty of 13 percent relative to whites.
+[xxv] Paul Fain (2016), “Getting Tough with a Gatekeeper,” Inside Higher Ed, https://www.insidehighered.com/news/2016/06/16/education-department-recommends-eliminating-national-accreditor-many-profit-colleges.
+[xxvi] Authors’ calculations using restricted B&B: 08/12 data. After limiting the sample to U.S. citizens who are employed full-time and not currently enrolled in 2012, we regress debt-to-income ratios on race indicators, an indicator for graduate attainment, interactions between race and graduate attainment, and include controls for age, gender, SAT/ACT scores if available, high school GPA, parental education indicators, undergraduate EFC, and undergraduate GPA. The 27 percentage point difference cited represents the sum of the coefficient on “Race:Black” (12 percentage points) and the coefficient on “GraduateDegree*Race:Black” (15 percentage points).
+[xxvii] Authors’ calculations using NCES Quick Stats, B&B:08/12 data restricted to U.S. citizens.
+[xxviii] http://www.studentloanborrowerassistance.org/wp-content/uploads/2013/05/ltr-sec-king-race-student-debt.pdf.
+[xxix] Huelsman (2015).
+[xxx] Authors’ calculations using NCES Quick Stats, Beginning Postsecondary Students:2003/09 data.
+[xxxi] Addo, Houle, and Simon (2016).
+[xxxii] This point has been made by Goldrick-Rab, Kelchen, & Houle (2014), as well as by Susan Dynarski (2014), “An Economist’s Perspective on Student Loans in the United States,” Economic Studies Working Paper Series, Washington, DC: Brookings Institution.
+[xxxiii] Brandon A. Jackson and John R. Reynolds (2013), “The Price of Opportunity: Race, Student Loan Debt, and College Achievement,” Sociological Inquiry 83(3): 335-368.
+[xxxiv] Susan Dynarski (2014), “An Economist’s Perspective on Student Loans in the United States,” ES Working Paper Series, Washington, DC: Brookings Institution.
