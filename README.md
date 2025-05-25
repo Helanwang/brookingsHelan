@@ -5,10 +5,13 @@ The primary task was to search for **13 specific race-related queries** on the B
 
 **Keywords searched:**
 
-[‘race bias’, ‘racial bias’, ‘race prejudice’, ‘racial prejudice’, ‘race discrimination’,
-‘racial discrimination’, ‘race disparity’, ‘racial disparity’, ‘race inequality’, ‘racial inequality’,
-‘race difference’, ‘racial difference’, ‘racism’]
-
+```python
+queries = [
+    'race bias', 'racial bias', 'race prejudice', 'racial prejudice', 'race discrimination',
+    'racial discrimination', 'race disparity', 'racial disparity', 'race inequality', 'racial inequality',
+    'race difference', 'racial difference', 'racism'
+]
+```
 ---
 
 ## 📊 Search Results Breakdown
@@ -74,7 +77,7 @@ Each row in the CSV will include:
 - Think Tank
 - Matched Keywords
 ---
-🛑 Technical Limitation: Algolia Search Cap
+🛑 Technical Limitation: `Algolia` Search Cap
 
 Brookings uses Algolia as its internal search engine. Algolia limits external users to 1000 search results per query. Even with pagination or endless scrolling, the cap remains at 1000 accessible articles.
 
@@ -92,11 +95,11 @@ This makes it impossible to scrape the entire dataset for queries with over 1000
   Snapshots available, but URLs are often outdated or irrelevant for scraping.
 - **LexisNexis:**  
   University LexisNexis does not include Brookings. Awaiting potential Stanford access.
-- **✅ Google Search API:**  
+- **Google Search API:**  
   Free trial allows scraping up to 100 URLs with year-based filters. Additional scraping requires payment and further testing.
 
-🚀 Next Steps
-Explore Google Search API for feasible extended scraping.
+🚀 Next Steps:
+- Explore Google Search API for feasible extended scraping.
 ---
 
 Written by:
